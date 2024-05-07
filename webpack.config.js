@@ -7,8 +7,8 @@ module.exports = {
     menu: './src/menu.js',
   },
   output: {
-   filename: 'main.js',
-   // filename: '[name].main.js',
+   //filename: 'main.js',
+  filename: '[name].main.js',
     path: path.resolve(__dirname, 'dist'),
   },
   plugins: [
